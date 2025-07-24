@@ -1,0 +1,52 @@
+.hero-background{
+    background-color: #FAD0C4;
+}
+
+.profile-img {
+  height: 200px;
+  border-radius: 50%;
+}
+ 
+.skill{
+    float: left;
+    height: 250px;
+    width: 200px;
+    margin: 10px;
+}
+
+.skill-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+@media(max-width: 1200px){
+    .skill{
+    float: none;
+    }
+    .skill-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+    .cloud{
+      height: 100px;
+      width: 100px;
+    }
+    
+
+}
+
+
+.flex-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
